@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const Hello = function (props) {
-    return React.createElement('div', null, 'Hello ' + props.name);
+    return <div>{'Hello ' + props.name}</div>;
 };
 
 Hello.propTypes = {
@@ -10,6 +10,6 @@ Hello.propTypes = {
 };
 
 ReactDOM.render(
-    React.createElement(Hello, { name: 'World' }),
+    <Hello name="World" />,
     document.getElementById('app')
 );

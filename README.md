@@ -13,10 +13,10 @@ https://www.npmjs.com/package/live-server), and open index.html in a browser.
 
 ### Compile
 
-`npm run build`
+`npm run build` (or `npm run watch`)
 
-Concatenate the app with all of its dependencies, preserving module scopes and
-minify the result.  You can include the result directly into your browser via
-`<script>` tags.
+Compile ES6 and JSX code, concatenate the app file with all of its dependencies,
+preserving module scopes and minify the result.  You can include the result
+directly into your browser via `<script>` tags.
 
 That's all!

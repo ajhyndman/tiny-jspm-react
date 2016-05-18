@@ -4,7 +4,8 @@
     "url": "https://github.com/ajhyndman/jspm-react"
   },
   "scripts": {
-    "build": "jspm bundle-sfx app/main.jsx! app.js --skip-source-maps --minify",
+    "build": "jspm build src/app.jsx app.js --minify",
+    "watch": "jspm build src/app.jsx app.js --minify --watch",
     "postinstall": "jspm install"
   },
   "devDependencies": {

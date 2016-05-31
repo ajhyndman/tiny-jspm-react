@@ -17,7 +17,7 @@
   },
   "jspm": {
     "name": "app",
-    "main": "app.js",
+    "main": "app.jsx",
     "directories": {
       "lib": "src"
     },

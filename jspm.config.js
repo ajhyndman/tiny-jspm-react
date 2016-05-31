@@ -2,7 +2,7 @@ SystemJS.config({
   transpiler: "plugin-babel",
   packages: {
     "app": {
-      "main": "app.js",
+      "main": "app.jsx",
       "meta": {
         "*.js": {
           "babelOptions": {
